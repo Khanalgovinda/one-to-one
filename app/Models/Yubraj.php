@@ -9,6 +9,6 @@ class Yubraj extends Model
 {
     public function index()
     {
-        return $this->hasone(Govinda::class);
+        return $this->hasMany('App\Models\Govinda');
     }
 }

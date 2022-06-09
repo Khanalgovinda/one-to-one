@@ -10,6 +10,6 @@ class YubrajController extends Controller
 {
     function index()
     {
-        return Govinda::find(1);
+        return Yubraj::find(2)->index;
     }
 }
